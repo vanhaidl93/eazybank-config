@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to EazyBank cards related prod APIs"
+  message: "Welcome to EazyBank cards related docker-pro environment APIs"
   contactDetails:
     name: "Carol Stone-Product Owner"
     email: "carol@gmail.com"
