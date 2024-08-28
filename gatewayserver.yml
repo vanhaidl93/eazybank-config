@@ -1,0 +1,13 @@
+server:
+  port: 8072
+
+# register eurekaserver ( internal network - service register, discovery agent) as Edge server.
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://localhost:8070/eureka/"
+
